@@ -1,5 +1,10 @@
 # Welcome Message
 
+print(
+    "Welcome to the Personal Finance Tracker App\n"
+    + "You will be prompted to eneter details according to the Default Template. Template choice will be added in the future."
+)
+
 # Ask for Fiscal Year
 
 # Ask for Month
