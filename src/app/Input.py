@@ -1,4 +1,8 @@
+import markdown
+
 # Welcome Message
+
+f = open("../test/test.html","a")
 
 print(
     "Welcome to the Personal Finance Tracker App\n"
@@ -7,7 +11,11 @@ print(
 
 # Ask for Fiscal Year
 FiscalYear = input("Enter the Fiscal Year")
-
+f.write(markdown.markdown('''
+| Fiscal Year | Value |
+| :---: | :---: |
+| Fiscal Year | FY21 |
+'''))
 # Ask for Month
 Month = input("Enter the Month")
 
