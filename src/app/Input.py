@@ -105,7 +105,7 @@ while 1 > 0:
 
                 ClosingBalance = ClosingBalance + Credit - Debit
 
-                f.write(f"| {DateOfExpense} | {TransferDetails} | {Credit} | {Debit} | {Closing Balance} |")
+                f.write(f"| {DateOfExpense} | {TransferDetails} | {Credit} | {Debit} | {ClosingBalance} |")
                 
             elif(ExpenseCategory == 3):
                 TransferDetails = input("Enter the details of the Investment")
@@ -114,7 +114,7 @@ while 1 > 0:
 
                 ClosingBalance = ClosingBalance + Credit - Debit
 
-                f.write(f"| {DateOfExpense} | {TransferDetails} | {Credit} | {Debit} | {Closing Balance} |")
+                f.write(f"| {DateOfExpense} | {TransferDetails} | {Credit} | {Debit} | {ClosingBalance} |")
                 
             elif(ExpenseCategory == 4):
                 TransferDetails = input("Enter the details of the expenditure")
@@ -123,7 +123,7 @@ while 1 > 0:
 
                 ClosingBalance = ClosingBalance + Credit - Debit
 
-                f.write(f"| {DateOfExpense} | {TransferDetails} | {Credit} | {Debit} | {Closing Balance} |")
+                f.write(f"| {DateOfExpense} | {TransferDetails} | {Credit} | {Debit} | {ClosingBalance} |")
 
             elif(ExpenseCategory == 5):
                 TransferDetails = input("Enter the details of the expenditure")
@@ -132,7 +132,7 @@ while 1 > 0:
 
                 ClosingBalance = ClosingBalance + Credit - Debit
 
-                f.write(f"| {DateOfExpense} | {TransferDetails} | {Credit} | {Debit} | {Closing Balance} |")
+                f.write(f"| {DateOfExpense} | {TransferDetails} | {Credit} | {Debit} | {ClosingBalance} |")
 
             else:
                 TransferDetails = input("Enter the details of the expenditure")
@@ -141,7 +141,7 @@ while 1 > 0:
 
                 ClosingBalance = ClosingBalance + Credit - Debit
 
-                f.write(f"| {DateOfExpense} | {TransferDetails} | {Credit} | {Debit} | {Closing Balance} |")
+                f.write(f"| {DateOfExpense} | {TransferDetails} | {Credit} | {Debit} | {ClosingBalance} |")
 
             # All this goes under the details section
 
